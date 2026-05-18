@@ -1,0 +1,16 @@
+{
+  "name": "roblox-mcp-primitives",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "ServerEvalBridge": { "$path": "src/ServerEvalBridge.server.luau" },
+      "LogBufferServer": { "$path": "src/LogBufferServer.server.luau" }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "ClientEvalBridge": { "$path": "src/ClientEvalBridge.client.luau" },
+        "LogBufferClient": { "$path": "src/LogBufferClient.client.luau" }
+      }
+    }
+  }
+}

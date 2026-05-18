@@ -1,0 +1,15 @@
+# Rojo build artifact
+*.rbxl
+*.rbxlx
+
+# Roblox lock files (not relevant for this repo)
+*.lock
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
